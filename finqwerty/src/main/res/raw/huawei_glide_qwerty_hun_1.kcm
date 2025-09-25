@@ -25,22 +25,22 @@ key ESCAPE {
 
 key 1 {
     label, base:                        '1'
-    shift:                              '\''
-    alt:                                '!'
+    shift:                              '''
+    alt:                                '~'
     fn:                                 '~'
     fn+shift, ctrl+fn:                  '\u00b9'
 }
 key 2 {
     label, base:                        '2'
     shift:                              '"'
-    alt:                                '"'
+    alt:                                'ˇ'
     fn:                                 '\u02c7'
     fn+shift, ctrl+fn:                  '\u030b'
 }
 key 3 {
     label, base:                        '3'
     shift:                              '+'
-    alt:                                '\u00a7'
+    alt:                                '^'
     fn:                                 '^'
     fn+shift, ctrl+fn:                  '\u0304'
 }
@@ -87,10 +87,10 @@ key 9 {
     fn+shift, ctrl+fn:                  '\u0306'
 }
 key 0 {
-    label:                              '\u00d6'
-    base:                               '\u00f6'
-    shift, capslock:                    '\u00d6'
-    alt:                                '='
+    label:                              '0'
+    base:                               '0'
+    shift, capslock:                    '§'
+    alt:                                '0'
     fn, fn+capslock:                    '0'
     shift+fn, ctrl+fn:                  '\u00a7'
 }
@@ -201,8 +201,8 @@ key O {
     label:                              'O'
     base:                               'o'
     shift, capslock:                    'O'
-    alt:                                ']'
-    fn:                                 '\u00f3'
+    alt:                                'ö'
+    alt-shift:                          'Ő'
     fn+shift, ctrl+fn, fn+capslock:     '\u00d3'
 }
 
