@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+def generatedLayoutsBuildDir = layout.buildDirectory.get()
+def generatedLayoutsResDir = new File("$generatedLayoutsBuildDir/generated/layouts")
+def generatedLayoutsRawDir = new File("$generatedLayoutsResDir/raw")
+
+android {
+    compileSdkVersion 35
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 35
+        versionCode 42
+        versionName "1.7.0"
+    }
+
+    sourceSets.main.res.srcDirs += generatedLayoutsResDir
+    namespace 'fi.onse.qwerty.finnish'
+}
+
+task generateLayouts(type: Exec) {
+    commandLine "python3", "$projectDir/../generate_layouts.py", "$generatedLayoutsRawDir"
+}
+
+preBuild.dependsOn generateLayouts
