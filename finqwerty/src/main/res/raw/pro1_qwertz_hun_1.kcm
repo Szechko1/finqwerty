@@ -124,9 +124,9 @@ key 9 {
     fn+shift, ctrl+fn:                  '\u0306'
 }
 key 0 {
-    label:                              '\u00d6'
-    base:                               '\u00f6'
-    shift, capslock:                    '\u00d6'
+    label:                              '0'
+    base:                               '0'
+    shift, capslock:                    '0'
     alt:                                '='
     fn, fn+capslock:                    '0'
     shift+fn, ctrl+fn:                  '\u00a7'
@@ -238,7 +238,7 @@ key O {
     label:                              'O'
     base:                               'o'
     shift, capslock:                    'O'
-    alt:                                ']'
+    alt:                                'ö'
     fn:                                 '\u00f3'
     fn+shift, ctrl+fn, fn+capslock:     '\u00d3'
 }
