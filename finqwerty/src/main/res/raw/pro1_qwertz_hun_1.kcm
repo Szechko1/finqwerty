@@ -239,7 +239,7 @@ key O {
     base:                               'o'
     shift, capslock:                    'O'
     alt:                                'ö'
-    fn:                                 '\u00f3'
+    fn:                                 'ö'
     fn+shift, ctrl+fn, fn+capslock:     '\u00d3'
 }
 
