@@ -5,6 +5,8 @@
     <keyboard-layout android:name="xt897_finnish" android:label="@string/xt897_finnish_1" android:keyboardLayout="@raw/xt897_1"/>
     <keyboard-layout android:name="apexq_finnish" android:label="@string/apexq_finnish_1" android:keyboardLayout="@raw/apexq_1"/>
 
+    <keyboard-layout android:name="huawei_glide_qwerty_hun_1" android:label="@string/huawei_glide_qwerty_hun_1" android:keyboardLayout="@raw/huawei_glide_qwerty_hun_1"/>
+
     <keyboard-layout android:name="priv_fin_1" android:label="@string/priv_fin_1" android:keyboardLayout="@raw/priv_fin_1"/>
     <keyboard-layout android:name="priv_swe_1" android:label="@string/priv_swe_1" android:keyboardLayout="@raw/priv_swe_1"/>
     <keyboard-layout android:name="priv_nor_1" android:label="@string/priv_nor_1" android:keyboardLayout="@raw/priv_nor_1"/>
