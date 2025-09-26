@@ -29,6 +29,12 @@ jobs:
           python3 generate_layouts.py generated
           mkdir -p src/main/res/raw/
           cp generated/*.kcm src/main/res/raw/
+          
+      - name: Upload generated layouts
+        uses: actions/upload-artifact@v3
+        with:
+          name: generated-layouts
+          path: generated/*.kcm
 
       - name: Build APK
         run: ./gradlew assembleDebug
