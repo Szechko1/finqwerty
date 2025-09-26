@@ -298,7 +298,8 @@ key X {
 """,
     },
     {
-        NAME:        SOURCE: "huawei_glide_qwerty_hun_1.kcm",
+        NAME: "huawei_glide_qwerty_hun_1.kcm",
+        SOURCE: "huawei_glide_qwerty_hun_1.kcm",
     },
 ] + [
     {
