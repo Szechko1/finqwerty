@@ -220,7 +220,7 @@ key LEFT_BRACKET {
     label:                              '\u0150'
     base:                               '\u0151'
     shift, capslock:                    '\u0150'
-    alt:                                '\u0303'
+    alt:                                '\u00f7'
     fn:                                 '\u00f7'
     fn+shift, ctrl+fn:                  '\u201c'
 }
@@ -229,7 +229,7 @@ key RIGHT_BRACKET {
     label:                              '\u00da'
     base:                               '\u00fa'
     shift, capslock:                    '\u00da'
-    alt:                                '*'
+    alt:                                '\u00d7'
     fn:                                 '\u00d7'
     fn+shift, ctrl+fn:                  '\u201d'
 }
@@ -240,7 +240,7 @@ key A {
     label:                              'A'
     base:                               'a'
     shift, capslock:                    'A'
-    fn:                                 '\u00e1'
+    alt:                                '\u00e4'
     fn+shift, ctrl+fn, fn+capslock:     '\u00c1'
 }
 
@@ -248,7 +248,7 @@ key S {
     label:                              'S'
     base:                               's'
     shift, capslock:                    'S'
-    alt:                                '\u00df'
+    alt:                                'u0111'
     fn:                                 '\u0111'
     fn+shift, ctrl+fn, fn+capslock:     '\u00a7'
 }
@@ -257,28 +257,28 @@ key D {
     label:                              'D'
     base:                               'd'
     shift, capslock:                    'D'
-    fn:                                 '\u0110'
+    alt:                                '\u0110'
     fn+shift, ctrl+fn, fn+capslock:     '\u00d0'
 }
 
 key F {
     label:                              'F'
     base:                               'f'
-    fn:                                 '['
+    alt:                                '['
     shift, capslock:                    'F'
 }
 
 key G {
     label:                              'G'
     base:                               'g'
-    fn:                                 ']'
+    alt:                                ']'
     shift, capslock:                    'G'
 }
 
 key H {
     label:                              'H'
     base:                               'h'
-    alt:                                '\u0303'
+    alt:                                ''
     shift, capslock:                    'H'
 }
 
@@ -286,14 +286,14 @@ key J {
     label:                              'J'
     base:                               'j'
     shift, capslock:                    'J'
-    fn:                                 '\u0171'
+    alt:                                '\u00ed'
 }
 
 key K {
     label:                              'K'
     base:                               'k'
     shift, capslock:                    'K'
-    fn, fn+capslock:                    '\u0170'
+    alt:                                '\u0142'
     fn+shift, ctrl+fn:                  '\u0152'
 }
 
@@ -310,7 +310,7 @@ key SEMICOLON {
     label:                              '\u00e9'
     base:                               '\u00e9'
     shift, capslock:                    '\u00c9'
-    alt:                                '\\'
+    alt:                                '$'
     fn:                                 '$'
     fn+shift, ctrl+fn:                  '\u00b0'
 }
@@ -319,7 +319,7 @@ key APOSTROPHE {
     label:                              '\u00e1'
     base:                               '\u00e1'
     shift, capslock:                    '\u00c1'
-    alt:                                '#'
+    alt:                                '\u00df'
     fn:                                 '\u03b2'
     fn+shift, ctrl+fn:                  '\u0308'
 }
@@ -339,7 +339,7 @@ key Z {
     label:                              'Y'
     base:                               'y'
     shift, capslock:                    'Y'
-    alt:                                '|'
+    alt:                                '>'
     fn:                                 '>'
     fn+shift, ctrl+fn:                  '\u00dc'
 }
@@ -347,7 +347,7 @@ key Z {
 key X {
     label:                              'X'
     base:                               'x'
-    fn:                                 '#'
+    alt:                                '#'
     shift, capslock:                    'X'
 }
 
@@ -355,8 +355,8 @@ key C {
     label:                              'C'
     base:                               'c'
     shift, capslock:                    'C'
-    alt:                                '\u00e7'
-    shift+alt:                          '\u00c7'
+    alt:                                '&'
+    shift+alt:                          '\u00e7'
     fn:                                 '&'
     fn+shift, ctrl+fn:                  '\u00a2'
 }
@@ -364,14 +364,14 @@ key C {
 key V {
     label:                              'V'
     base:                               'v'
-    fn:                                 '@'
+    alt:                                '@'
     shift, capslock:                    'V'
 }
 
 key B {
     label:                              'B'
     base:                               'b'
-    fn:                                 '{'
+    alt:                                '{'
     shift, capslock:                    'B'
 }
 
@@ -379,8 +379,8 @@ key N {
     label:                              'N'
     base:                               'n'
     shift, capslock:                    'N'
-    fn:                                 '}'
-    alt:                                '\u0303'
+    alt:                                '}'
+    fn:                                 '\u0303'
     fn+shift, ctrl+fn, fn+capslock:     '\u00d1'
 }
 
@@ -406,7 +406,7 @@ key PERIOD {
     label:                              '.'
     base:                               '.'
     shift:                              ':'
-    alt:                                ':'
+    alt:                                '>'
     fn:                                 '\u0307'
     fn+shift, ctrl+fn:                  '\u030c'
 }
