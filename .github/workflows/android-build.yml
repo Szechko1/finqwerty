@@ -24,6 +24,12 @@ jobs:
       - name: Grant execute permission to gradlew
         run: chmod +x ./gradlew
 
+      - name: Run generate_layouts.py
+        run: |
+          python3 generate_layouts.py generated
+          mkdir -p src/main/res/raw/
+          cp generated/*.kcm src/main/res/raw/
+
       - name: Build APK
         run: ./gradlew assembleDebug
 
