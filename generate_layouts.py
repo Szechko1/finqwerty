@@ -301,9 +301,9 @@ key X {
         NAME: "huawei_glide_qwerty_hun_1.kcm",
         SOURCE: "pro1_qwerty_hun_1.kcm",
         REPLACE: [
-            (r"'\\\\u00f6'", "'0'"),
-            ("r"'\\\\u00d6'", "'0'"),
-            (r"'='", r"'\\\\u02dd'"),
+            ("'ö'", "'0'"),
+            ("'Ő'", "'0'"),
+            ("'='", "'˝'"),
         ],
     },
 ] + [
