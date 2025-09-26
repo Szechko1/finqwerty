@@ -296,16 +296,15 @@ key X {
     fn+shift, ctrl+fn, fn+capslock:     '\u0179' # Ź
 }
 """,
+    }, 
+    {
+        NAME: "huawei_glide_qwerty_hun_1.kcm",
+        SOURCE: "pro1_qwerty_hun_1.kcm",
+        REPLACE: [
+            ("'ö'", "'0'"),
+            ("'Ö'", "'0'"),
+            ("'='", "'\u02dd'"),
     },
-    
-{
-    NAME: "huawei_glide_qwerty_hun_1.kcm",
-    SOURCE: "pro1_qwerty_hun_1.kcm",
-    REPLACE: [
-        ("'ö'", "'0'"),
-        ("'Ö'", "'0'"),
-        ("'='", "'\u02dd'"),
-},
 ] + [
     {
         NAME: f"pro1x_qwertz_{name}.kcm",
