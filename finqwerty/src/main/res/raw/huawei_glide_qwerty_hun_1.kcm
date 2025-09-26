@@ -25,42 +25,43 @@ key ESCAPE {
 
 key 1 {
     label, base:                        '1'
-    shift:                              '\''
-    alt:                                '!'
+    shift:                              '''
+    alt:                                '~'
     fn:                                 '~'
     fn+shift, ctrl+fn:                  '\u00b9'
 }
 key 2 {
     label, base:                        '2'
     shift:                              '"'
-    alt:                                '"'
+    alt:                                '\u02c7'
     fn:                                 '\u02c7'
     fn+shift, ctrl+fn:                  '\u030b'
 }
 key 3 {
     label, base:                        '3'
     shift:                              '+'
-    alt:                                '\u00a7'
+    alt:                                '^'
     fn:                                 '^'
     fn+shift, ctrl+fn:                  '\u0304'
 }
 key 4 {
     label, base:                        '4'
     shift:                              '!'
-    alt:                                '$'
+    alt:                                '\u02d8'
     fn:                                 '\u02d8'
     fn+shift, ctrl+fn:                  '\u00a3'
 }
 key 5 {
     label, base:                        '5'
-    shift, alt:                         '%'
+    shift:                              '%'
+    alt:                                '\u00b0'
     fn:                                 '\u00b0'
     fn+shift, ctrl+fn:                  '\u0327'
 }
 key 6 {
     label, base:                        '6'
     shift:                              '/'
-    alt:                                '&'
+    alt:                                '\u02db'
     fn:                                 '\u02db'
     fn+shift, ctrl+fn:                  '^'
     alt+shift:                          '\u0302'
@@ -68,29 +69,29 @@ key 6 {
 key 7 {
     label, base:                        '7'
     shift:                              '='
-    alt:                                '/'
+    alt:                                '\u0060'
     fn:                                 '\u0060'
     fn+shift, ctrl+fn:                  '\u031b'
 }
 key 8 {
     label, base:                        '8'
     shift:                              '('
-    alt:                                '('
+    alt:                                '\u02d9'
     fn:                                 '\u02d9'
     fn+shift, ctrl+fn:                  '\u0328'
 }
 key 9 {
     label, base:                        '9'
     shift:                              ')'
-    alt:                                ')'
+    alt:                                '\u00b4'
     fn:                                 '\u00b4'
     fn+shift, ctrl+fn:                  '\u0306'
 }
 key 0 {
-    label:                              '\u00d6'
-    base:                               '\u00f6'
-    shift, capslock:                    '\u00d6'
-    alt:                                '='
+    label:                              '0'
+    base:                               '0'
+    shift, capslock:                    '0'
+    alt:                                '0'
     fn, fn+capslock:                    '0'
     shift+fn, ctrl+fn:                  '\u00a7'
 }
@@ -98,7 +99,7 @@ key MINUS {
     label:                              '\u00dc'
     base:                               '\u00fc'
     shift, capslock:                    '\u00dc'
-    alt:                                '?'
+    alt:                                '\u00a8'
     fn:                                 '\u02dd'
     fn+shift, ctrl+fn:                  '\u0323'
 }
@@ -106,7 +107,7 @@ key EQUALS {
     label:                              '\u00f3'
     base:                               '\u00f3'
     shift, capslock:                    '\u00d3'
-    alt:                                '\u0300'
+    alt:                                '\u00b8'
     alt+shift:                          '`'
     fn:                                 '\u00d7'
     fn+shift, ctrl+fn:                  '\u00f7'
@@ -128,8 +129,8 @@ key Q {
     label:                              'Q'
     base:                               'q'
     shift, capslock:                    'Q'
-    alt:                                '@'
-    fn:                                 '\\'
+    alt:                                '\'
+    fn:                                 '\'
     fn+shift, ctrl+fn, fn+capslock:     '\u00c4'
 }
 
@@ -137,7 +138,7 @@ key W {
     label:                              'W'
     base:                               'w'
     shift, capslock:                    'W'
-    alt:                                '\u0302'
+    alt:                                '|'
     fn:                                 '|'
     fn+shift, ctrl+fn, fn+capslock:     '\u00c5'
 }
@@ -146,7 +147,7 @@ key E {
     label:                              'E'
     base:                               'e'
     shift, capslock:                    'E'
-    alt:                                '\u20ac'
+    alt:                                '\u00c4'
     #alt:                               '\u0301'
     fn:                                 '\u00e9'
     fn+shift, ctrl+fn, fn+capslock:     '\u00c9'
@@ -156,7 +157,7 @@ key R {
     label:                              'R'
     base:                               'r'
     shift, capslock:                    'R'
-    alt:                                '\u00b0'
+    alt:                                ''
     fn:                                 '\u00a4'
     fn+shift, ctrl+fn:                  '\u00a4'
 }
@@ -173,7 +174,7 @@ key Y {
     label:                              'Z'
     base:                               'z'
     shift, capslock:                    'Z'
-    alt:                                '|'
+    alt:                                ''
     fn:                                 '\u00e6'
     fn+shift, ctrl+fn, fn+capslock:     '\u00c6'
 }
@@ -182,7 +183,7 @@ key U {
     label:                              'U'
     base:                               'u'
     shift, capslock:                    'U'
-    alt:                                '{'
+    alt:                                '\u20ac'
     fn:                                 '\u20ac'
     fn+shift, ctrl+fn, fn+capslock:     '\u00da'
 }
@@ -191,8 +192,8 @@ key I {
     label:                              'I'
     base:                               'i'
     shift, capslock:                    'I'
-    alt:                                '['
-    #alt:                               '\u0302'
+    alt:                                '\u00ed'
+    alt+shift:                          '\u00cd'
     fn:                                 '\u00ed'
     fn+shift, ctrl+fn, fn+capslock:     '\u00cd'
 }
@@ -201,8 +202,8 @@ key O {
     label:                              'O'
     base:                               'o'
     shift, capslock:                    'O'
-    alt:                                ']'
-    fn:                                 '\u00f3'
+    alt:                                'ö'
+    alt+shift:                          'Ő'
     fn+shift, ctrl+fn, fn+capslock:     '\u00d3'
 }
 
