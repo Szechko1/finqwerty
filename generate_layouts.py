@@ -297,6 +297,11 @@ key X {
 }
 """,
     },
+    
+{
+    NAME: "huawei_glide_qwerty_hun_1.kcm",
+    SOURCE: "hun_1.kcm",
+},
 ] + [
     {
         NAME: f"pro1x_qwertz_{name}.kcm",
