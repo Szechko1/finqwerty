@@ -5,7 +5,7 @@
     <string name="xt897_finnish_1" translatable="false">FinQwerty Photon Q, Motorola</string>
     <string name="apexq_finnish_1" translatable="false">FinQwerty Galaxy S Relay 4G, Samsung</string>
 
-    <string name="huawei_glide_qwerty_hun_1">FinQwerty Huawei Glide, Hungarian for physical US QWERTY</string>
+    <string name="huawei_glide_hungarian_label">Huawei Glide – Hungarian (QWERTZ)</string>
 
     <string name="priv_fin_1">FinQwerty BlackBerry Priv, Finnish</string>
     <string name="priv_fin_2">FinQwerty BlackBerry Priv, Finnish 2</string>
