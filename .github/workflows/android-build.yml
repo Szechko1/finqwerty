@@ -20,6 +20,9 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
+          
+      - name: Build Finqwerty
+        run: ./gradlew :finqwerty:clean :finqwerty:assembleDebug
 
       - name: Grant execute permission to gradlew
         run: chmod +x ./gradlew
