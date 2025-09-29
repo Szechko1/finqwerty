@@ -12,14 +12,14 @@ type FULL
 key 1 {
     label:                              '1'
     base:                               '1'
-    shift:                              '‘'
+    shift:                              '''
     capslock:                           '1'
     alt:                                '~'
 }
 key 2 {
     label:                              '2'
     base:                               '2'
-    shift:                              '“'
+    shift:                              '"'
     capslock:                           '2'
     alt:                                'ˇ'
 }
@@ -101,63 +101,63 @@ key Q {
     alt:                                '\\'
 }
 key W {
-    label:                              'w'
-    base:                               'W'
+    label:                              'W'
+    base:                               'w'
     shift:                              'W'
     capslock:                           'W'
     alt:                                '|'
 }
 key E {
-    label:                              'e'
-    base:                               'E'
+    label:                              'E'
+    base:                               'e'
     shift:                              'E'
     capslock:                           'E'
     alt:                                'Ä'
 }
 key R {
-    label:                              'r'
-    base:                               'R'
+    label:                              'R'
+    base:                               'r'
     shift:                              'R'
     capslock:                           'R'
 }
 key T {
-    label:                              't'
-    base:                               'T'
+    label:                              'T'
+    base:                               't'
     shift:                              'T'
     capslock:                           'T'
 }
 key Y {
-    label:                              'z'
+    label:                              'Z'
     base:                               'z'
     shift:                              'Z'
     capslock:                           'Z'
 }
 key U {
-    label:                              'u'
-    base:                               'U'
+    label:                              'U'
+    base:                               'u'
     shift:                              'U'
     capslock:                           'U'
     alt:                                '€'
 }
 key I {
-    label:                              'i'
-    base:                               'I'
+    label:                              'I'
+    base:                               'i'
     shift:                              'I'
     capslock:                           'I'
     alt:                                'í'
     shift+alt:                          'Í'
 }
 key O {
-    label:                              'o'
-    base:                               'O'
+    label:                              'O'
+    base:                               'o'
     shift:                              'O'
     capslock:                           'O'
     alt:                                'ö'
     shift+alt:                          'Ö'
 }
 key P {
-    label:                              'p'
-    base:                               'P'
+    label:                              'P'
+    base:                               'p'
     shift:                              'P'
     capslock:                           'P'
 }
@@ -176,63 +176,63 @@ key RIGHT_BRACKET {
     alt:                                '×'
 }
 key A {
-    label:                              'a'
-    base:                               'A'
+    label:                              'A'
+    base:                               'a'
     shift:                              'A'
     capslock:                           'A'
     alt:                                'ä'
 }
 key S {
-    label:                              's'
-    base:                               'S'
+    label:                              'S'
+    base:                               's'
     shift:                              'S'
     capslock:                           'S'
     alt:                                'đ'
 }
 key D {
-    label:                              'd'
-    base:                               'D'
+    label:                              'D'
+    base:                               'd'
     shift:                              'D'
     capslock:                           'D'
     alt:                                'Đ'
 }
 key F {
-    label:                              'f'
-    base:                               'F'
+    label:                              'F'
+    base:                               'f'
     shift:                              'F'
     capslock:                           'F'
     alt:                                '['
 }
 key G {
-    label:                              'g'
-    base:                               'G'
+    label:                              'G'
+    base:                               'g'
     shift:                              'G'
     capslock:                           'G'
     alt:                                ']'
 }
 key H {
-    label:                              'h'
-    base:                               'H'
+    label:                              'H'
+    base:                               'h'
     shift:                              'H'
     capslock:                           'H'
 }
 key J {
-    label:                              'j'
-    base:                               'J'
+    label:                              'J'
+    base:                               'j'
     shift:                              'J'
     capslock:                           'J'
     alt:                                'í'
 }
 key K {
-    label:                              'k'
-    base:                               'K'
+    label:                              'K'
+    base:                               'k'
     shift:                              'K'
     capslock:                           'K'
     alt:                                'ł'
 }
 key L {
-    label:                              'l'
-    base:                               'L'
+    label:                              'L'
+    base:                               'l'
     shift:                              'L'
     capslock:                           'L'
     alt:                                'Ł'
@@ -281,7 +281,7 @@ key C {
     base:                               'c'
     shift:                              'C'
     capslock:                           'C'
-    alt:                                'c'
+    alt:                                '&'
 }
 key V {
     label:                              'V'
